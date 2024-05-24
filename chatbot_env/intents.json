@@ -1,0 +1,478 @@
+{
+  "intents": [
+    {
+      "tag": "selamlaşma",
+      "patterns": [
+        "Merhaba, nasılsın?",
+        "Bugün nasılsın?",
+        "Hey, ne haber?",
+        "Seninle neler oluyor?"
+      ],
+      "responses": [
+        "İyiyim. Ya sen?",
+        "İyi gidiyor. Ya sen?",
+        "İyi. Seninle neler oluyor?",
+        "Pek bir şey yok, sende neler var?"
+      ]
+    },
+    {
+      "tag": "okul",
+      "patterns": [
+        "Şu anda okuldayım.",
+        "Aslında şu anda okuldayım.",
+        "Hangi okula gidiyorsun?",
+        "Hangi okula gidiyorsun?"
+      ],
+      "responses": [
+        "PCC'ye gidiyorum.",
+        "Şu anda PCC'ye gidiyorum.",
+        "Pasadena City College'a gidiyorum.",
+        "Orayı seviyor musun?"
+      ]
+    },
+    {
+      "tag": "hava",
+      "patterns": [
+        "Bugün hava kötü.",
+        "Bugün dışarısı pek hoş görünmüyor.",
+        "Hava güzel değil mi?",
+        "Sence de hava güzel değil mi?",
+        "Hava çok güzel."
+      ],
+      "responses": [
+        "Biliyorum. Sanırım yağmur yağabilir.",
+        "Haklısın. Sanırım daha sonra yağmur yağacak.",
+        "Evet, öyle.",
+        "Evet, ben de öyle düşünüyorum.",
+        "Umarım öyle olur."
+      ]
+    },
+    {
+      "tag": "planlar",
+      "patterns": [
+        "Bu hafta sonu ne yapıyorsun?",
+        "Bu hafta sonu ne yapacağını biliyor musun?",
+        "Bu hafta sonu ne yapmak istediğine dair herhangi bir fikrin var mı?",
+        "Bu hafta sonu ne yapmak istediğine dair herhangi bir fikrin var mı?"
+      ],
+      "responses": [
+        "Bir arkadaşımla sinemaya gideceğim. Ya sen?",
+        "Bir arkadaşımla sinemaya gideceğim. Ya sen?",
+        "Henüz karar vermedim.",
+        "Henüz tam olarak bilmiyorum."
+      ]
+    },
+    {
+      "tag": "filmler",
+      "patterns": [
+        "En sevdiğin film nedir?",
+        "İzlemeyi en sevdiğin film hangisi?",
+        "İzlediğin tüm filmler arasında, en sevdiğin hangisi?",
+        "İzlemeyi en sevdiğin film hangisi?"
+      ],
+      "responses": [
+        "En sevdiğim film Superbad.",
+        "En sevdiğim film Superbad.",
+        "Superbad'in en iyi film olduğunu söylemem gerek.",
+        "En sevdiğim film Superbad."
+      ]
+    },
+    {
+      "tag": "özür",
+      "patterns": [
+        "Bunun için üzgünüm. Temizlik yapıyordum.",
+        "Özür dilerim. Bunu yapmak istememiştim.",
+        "Özür dilerim, dikkat etmiyordum.",
+        "Üzgünüm, ama gitmem gerekiyor."
+      ],
+      "responses": [
+        "Sorun değil.",
+        "Önemli değil.",
+        "Sorun yok.",
+        "Dert etme."
+      ]
+    },
+    {
+      "tag": "aile",
+      "patterns": [
+        "Ailem her Pazar kiliseye gider.",
+        "Bir kız arkadaşın var mı?",
+        "Endişeliyim. Evleniyorum.",
+        "Büyükannemin dairesi tuhaf kokuyor."
+      ],
+      "responses": [
+        "Tanrı'ya güveniyorlar.",
+        "Hayır, yok. Ya sen?",
+        "Endişelenmemelisin, mutlu olmalısın.",
+        "Benimki de öyle."
+      ]
+    },
+    {
+      "tag": "yemek",
+      "patterns": [
+        "Akşam yemeğinde ne var?",
+        "Bu gece ne pişiriyorsun?",
+        "Yiyecek bir şeyimiz var mı?",
+        "Açım, yiyecek ne var?",
+        "Ne yemek yapıyorsun?",
+        "Yemek yapmayı sever misin?",
+        "Yemek tarifleri biliyor musun?"
+      ],
+      "responses": [
+        "Bilmiyorum. Ne istersin?",
+        "Pizza nasıl olur?",
+        "Buzdolabında biraz artan yemek var.",
+        "Dışarıdan sipariş verelim.",
+        "Akşam yemeğinde makarna var.",
+        "Kebap yapıyorum.",
+        "Evet, yemek yapmayı çok severim.",
+        "Evet, birçok yemek tarifi biliyorum."
+      ]
+    },
+    {
+      "tag": "evcil_hayvan",
+      "patterns": [
+        "Evcil hayvanın var mı?",
+        "Köpeğin veya kedin var mı?",
+        "En sevdiğin hayvan nedir?",
+        "Kaç tane evcil hayvanın var?",
+        "Hangi evcil hayvanlara sahipsin?",
+        "Evcil hayvan besliyor musun?",
+        "Hangi evcil hayvanı tercih edersin?"
+      ],
+      "responses": [
+        "Evet, bir köpeğim var.",
+        "Bir kedim ve iki köpeğim var.",
+        "En sevdiğim hayvan köpektir.",
+        "Üç evcil hayvanım var.",
+        "İki kedi ve bir köpeğim var.",
+        "Evet, üç evcil hayvanım var.",
+        "Köpek beslemeyi tercih ederim."
+      ]
+    },
+    {
+      "tag": "seyahat",
+      "patterns": [
+        "Son zamanlarda herhangi bir seyahate çıktın mı?",
+        "Seyahat etmeyi sever misin?",
+        "En sevdiğin tatil yeri neresi?",
+        "Yurtdışına hiç seyahat ettin mi?",
+        "Tatil planların neler?",
+        "Nereye tatile gideceksin?",
+        "Yaz tatilinde ne yapacaksın?",
+        "Tatil önerin var mı?",
+        "En son nereye seyahat ettin?",
+        "Yurt dışına çıktın mı?",
+        "Hangi ülkeleri gezdin?",
+        "En sevdiğin seyahat noktası neresi?"
+      ],
+      "responses": [
+        "Evet, geçen yaz Avrupa'ya gittim.",
+        "Seyahat etmeyi severim. Ya sen?",
+        "En sevdiğim tatil yeri Hawaii.",
+        "Evet, birkaç ülkeye gittim.",
+        "Bu yaz Antalya'ya gideceğim.",
+        "Bodrum benim favori tatil yerimdir.",
+        "Yaz tatilinde denize gireceğim.",
+        "Sana Kapadokya'yı öneririm.",
+        "Tatil planım henüz yok.",
+        "En son Paris'e seyahat ettim.",
+        "Evet, birçok ülkeye gittim.",
+        "İtalya, İspanya ve Japonya'yı gezdim.",
+        "En sevdiğim seyahat noktası Maldivler."
+      ]
+    },
+    {
+      "tag": "iş",
+      "patterns": [
+        "Geçiminizi nasıl sağlıyorsunuz?",
+        "Nerede çalışıyorsun?",
+        "İşini seviyor musun?",
+        "Orada ne kadar süredir çalışıyorsun?",
+        "Ne iş yapıyorsun?",
+        "Çalışma saatlerin nasıl?"
+      ],
+      "responses": [
+        "Yazılım geliştiricisiyim.",
+        "Bir teknoloji şirketinde çalışıyorum.",
+        "Evet, işimi çok seviyorum.",
+        "Beş yıldır orada çalışıyorum.",
+        "Çalışma saatlerim esnek."
+      ]
+    },
+    {
+      "tag": "hobiler",
+      "patterns": [
+        "Boş zamanlarında ne yaparsın?",
+        "Herhangi bir hobin var mı?",
+        "En sevdiğin meşgaleler nelerdir?",
+        "Hafta sonlarını nasıl geçirirsin?",
+        "Hangi hobilerle ilgilenirsin?",
+        "Hangi aktivitelerden hoşlanırsın?",
+        "Hobilerin neler?"
+      ],
+      "responses": [
+        "Çizim yapmayı ve boyama yapmayı severim.",
+        "Kitap okumayı severim.",
+        "En sevdiğim meşgale doğa yürüyüşü yapmaktır.",
+        "Genellikle hafta sonlarını dinlenerek geçiririm.",
+        "Resim yapmayı severim.",
+        "Kitap okumaktan hoşlanırım.",
+        "Doğa yürüyüşleri yaparım.",
+        "Fotoğraf çekmek benim hobimdir.",
+        "Müzik dinlemeyi çok severim."
+      ]
+    },
+    {
+      "tag": "sağlık",
+      "patterns": [
+        "Bugün nasıl hissediyorsun?",
+        "Kendini iyi hissediyor musun?",
+        "Sık sık hasta olur musun?",
+        "Sağlıklı kalmak için ne yaparsın?",
+        "Sağlığını nasıl koruyorsun?"
+      ],
+      "responses": [
+        "Harika hissediyorum, teşekkürler.",
+        "Evet, iyiyim. Ya sen?",
+        "Hayır, nadiren hasta olurum.",
+        "Düzenli olarak egzersiz yapar ve sağlıklı beslenirim.",
+        "Sağlıklı kalmak için spor yaparım ve dengeli beslenirim."
+      ]
+    },
+    {
+      "tag": "spor",
+      "patterns": [
+        "Sporu sever misin?",
+        "En sevdiğin spor nedir?",
+        "Herhangi bir spor yapıyor musun?",
+        "En sevdiğin sporcu kim?",
+        "Hangi sporları seviyorsun?",
+        "Hangi sporu yapıyorsun?",
+        "Spor yapıyor musun?",
+        "Hangi sporları yapıyorsun?"
+      ],
+      "responses": [
+        "Evet, sporu çok severim.",
+        "En sevdiğim spor basketbol.",
+        "Hafta sonları futbol oynarım.",
+        "En sevdiğim sporcu LeBron James.",
+        "Basketbolu çok seviyorum.",
+        "En sevdiğim spor futbol.",
+        "Hafta sonları tenis oynarım.",
+        "Evet, düzenli olarak spor yapıyorum."
+      ]
+    },
+    {
+      "tag": "teknoloji",
+      "patterns": [
+        "Teknoloji kullanmayı sever misin?",
+        "En sevdiğin cihaz nedir?",
+        "Teknolojiyle ilgilenir misin?",
+        "En son teknoloji trendlerini takip eder misin?",
+        "Hangi teknolojik cihazları kullanıyorsun?",
+        "En sevdiğin teknoloji ürünü nedir?",
+        "Teknolojiyi seviyor musun?",
+        "Yeni teknolojik gelişmeleri takip eder misin?",
+        "Hangi teknoloji markalarını tercih edersin?"
+      ],
+      "responses": [
+        "Evet, teknolojiyi çok severim.",
+        "En sevdiğim cihaz akıllı telefonum.",
+        "Evet, teknolojiyle çok ilgilenirim.",
+        "En son teknoloji trendlerini takip etmeye çalışırım.",
+        "En sevdiğim cihaz telefonum.",
+        "Tablet kullanmayı çok severim.",
+        "Evet, teknolojiye bayılırım.",
+        "Evet, teknolojik gelişmeleri takip ederim.",
+        "Apple ve Samsung markalarını tercih ederim."
+      ]
+    },
+    {
+      "tag": "haberler",
+      "patterns": [
+        "Son haberleri duydun mu?",
+        "Bugün dünyada neler oluyor?",
+        "Güncel olaylarla ilgili herhangi bir güncelleme var mı?",
+        "Bugünün en önemli haberi nedir?",
+        "Bugünün haberlerini duydun mu?",
+        "Gündemde ne var?",
+        "Son haberlerde ne var?",
+        "Bugün dünya neler konuşuyor?",
+        "En son haberler nedir?"
+      ],
+      "responses": [
+        "Evet, duydum. Oldukça ilginç.",
+        "Bilmiyorum. Bir bakayım.",
+        "Bazı ilginç gelişmeler oldu.",
+        "Bugünün en önemli haberi ekonomi hakkında.",
+        "Evet, duydum. Oldukça ilginç şeyler oluyor.",
+        "Gündemde birçok konu var.",
+        "Son haberlerde önemli gelişmeler var.",
+        "Bugün ekonomi hakkında konuşuluyor.",
+        "En son haberleri takip etmeye çalışıyorum."
+      ]
+    },
+    {
+      "tag": "müzik",
+      "patterns": [
+        "Ne tür müzik seversin?",
+        "En sevdiğin şarkıcı kim?",
+        "Herhangi bir müzik aleti çalıyor musun?",
+        "En sevdiğin şarkı nedir?",
+        "Hangi tür müzikleri seversin?",
+        "En sevdiğin şarkıcı kim?",
+        "Müzik aleti çalıyor musun?",
+        "En sevdiğin şarkı hangisi?",
+        "Hangi müzik grubunu seviyorsun?"
+      ],
+      "responses": [
+        "Farklı türde müzikler dinlemeyi severim.",
+        "En sevdiğim şarkıcı Adele.",
+        "Evet, gitar çalıyorum.",
+        "En sevdiğim şarkı John Lennon'ın 'Imagine' şarkısı.",
+        "Rock müziği çok severim.",
+        "En sevdiğim şarkıcı Adele.",
+        "Evet, gitar çalıyorum.",
+        "En sevdiğim şarkı 'Imagine' John Lennon.",
+        "Coldplay grubunu çok severim."
+      ]
+    },
+    {
+      "tag": "üniversite",
+      "patterns": [
+        "Hangi üniversiteye gidiyorsun?",
+        "Üniversitede ne okuyorsun?",
+        "Üniversiten nasıl gidiyor?",
+        "Hangi bölümde okuyorsun?",
+        "Üniversiteyi seviyor musun?"
+      ],
+      "responses": [
+        "Boğaziçi Üniversitesi'ne gidiyorum.",
+        "Bilgisayar mühendisliği okuyorum.",
+        "Üniversite harika gidiyor.",
+        "Elektrik mühendisliği bölümündeyim.",
+        "Evet, üniversiteyi çok seviyorum."
+      ]
+    },
+    {
+      "tag": "en_sevdiğin_kuruyemiş",
+      "patterns": [
+        "En sevdiğin kuruyemiş hangisi?",
+        "Hangi kuruyemişi seversin?",
+        "Kuruyemişlerden hangisini seversin?",
+        "Kuruyemiş tercihin nedir?",
+        "Hangi kuruyemişi tercih edersin?"
+      ],
+      "responses": [
+        "En sevdiğim kuruyemiş badem.",
+        "Cevizi çok severim.",
+        "Fındık favorimdir.",
+        "Kaju fıstığına bayılırım.",
+        "Antep fıstığı tercihimdir."
+      ]
+    },
+    {
+      "tag": "en_sevdiğin_enstrüman",
+      "patterns": [
+        "Hangi enstrümanı çalmayı seversin?",
+        "En sevdiğin enstrüman hangisi?",
+        "Müzik aletlerinden hangisini tercih edersin?",
+        "Hangi müzik aletini seversin?",
+        "Enstrüman çalıyor musun?"
+      ],
+      "responses": [
+        "Gitar çalmayı çok severim.",
+        "Piyano benim favorimdir.",
+        "Keman çalmaktan hoşlanırım.",
+        "Bateri çalmak benim için eğlencelidir.",
+        "Flüt çalmayı seviyorum."
+      ]
+    },
+    {
+      "tag": "en_sevdiğin_kitap",
+      "patterns": [
+        "En sevdiğin kitap hangisi?",
+        "Hangi kitabı okumayı seversin?",
+        "Okuduğun en iyi kitap nedir?",
+        "Kitap önerin var mı?",
+        "En son hangi kitabı okudun?"
+      ],
+      "responses": [
+        "En sevdiğim kitap 'Küçük Prens'.",
+        "Harry Potter serisini çok severim.",
+        "1984 benim favori kitabımdır.",
+        "Sana 'Simyacı'yı öneririm.",
+        "En son 'Sefiller'i okudum."
+      ]
+    },
+    {
+      "tag": "en_sevdiğin_film",
+      "patterns": [
+        "En sevdiğin film hangisi?",
+        "Hangi filmi izlemeyi seversin?",
+        "İzlediğin en iyi film nedir?",
+        "Film önerin var mı?",
+        "En son hangi filmi izledin?"
+      ],
+      "responses": [
+        "En sevdiğim film 'Başlangıç'.",
+        "Matrix serisini çok severim.",
+        "Yüzüklerin Efendisi benim favorimdir.",
+        "Sana 'Esaretin Bedeli'ni öneririm.",
+        "En son 'Avengers' izledim."
+      ]
+    },
+    {
+      "tag": "egzersiz",
+      "patterns": [
+        "Hangi sporları yapıyorsun?",
+        "Spor yapıyor musun?",
+        "Egzersiz yapıyor musun?",
+        "Hangi egzersizleri yapıyorsun?",
+        "Spor salonuna gidiyor musun?"
+      ],
+      "responses": [
+        "Düzenli olarak koşarım.",
+        "Yoga yapmayı severim.",
+        "Fitness yapıyorum.",
+        "Yüzme benim favorimdir.",
+        "Evet, spor salonuna gidiyorum."
+      ]
+    },
+    {
+      "tag": "eğlence",
+      "patterns": [
+        "Boş zamanlarında ne yapıyorsun?",
+        "Hangi filmleri izlersin?",
+        "En sevdiğin dizi hangisi?",
+        "Hangi tür kitapları okursun?",
+        "Eğlenmek için ne yaparsın?"
+      ],
+      "responses": [
+        "Boş zamanlarımda film izlerim.",
+        "Genellikle bilim kurgu filmleri izlerim.",
+        "En sevdiğim dizi 'Breaking Bad'.",
+        "Genellikle fantastik kitaplar okurum.",
+        "Eğlenmek için arkadaşlarımla buluşurum."
+      ]
+    },
+    {
+      "tag": "moda",
+      "patterns": [
+        "Moda ile ilgileniyor musun?",
+        "Hangi markaları tercih edersin?",
+        "En sevdiğin giyim tarzı nedir?",
+        "Hangi mağazalardan alışveriş yaparsın?",
+        "Modayı takip eder misin?"
+      ],
+      "responses": [
+        "Evet, modayı çok severim.",
+        "Zara ve H&M markalarını tercih ederim.",
+        "Rahat ve şık giyim tarzını severim.",
+        "Genellikle online alışveriş yaparım.",
+        "Evet, modayı yakından takip ederim."
+      ]
+    }
+  ]
+}
